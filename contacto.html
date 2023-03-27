@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encarnacion</title>
+
+    <script src="https://kit.fontawesome.com/7c287347ef.js" crossorigin="anonymous"></script>
+    <script src="js/contacto.js"></script>
+
+    <link rel="shortcut icon" href="img/Escudo_de_Encarnación.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/general.css">
+    <link rel="stylesheet" href="estilos/contacto.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <img src="img/Escudo_de_Encarnación.png">
+            <h2>Encarnación</h2>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="info.html">Informacion</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="margen"></div>
+
+
+    <h1>Llene el siguiente formulario</h1>
+    <form>
+        <div class="entrada1">
+            <div class="p1">
+                <label for="nombre">Nombre completo: </label>
+                <br>
+
+                <label for="tel">Teléfono: </label>
+                <br>
+
+                <label for="correo">e-mail: </label>
+                <br>
+
+                <label for="motivo">Motivo: </label>
+                <br>
+            </div>
+            <div class="p2">
+                <input type="text" class="nombre" id="nombre">
+                <br> 
+
+                <input type="text" class="tel" id="tel">
+                <br>
+
+                <input type="text" class="correo" id="correo">
+                <br>
+
+                <select name="motivo" id="motivo">
+                    <option value="info" selected>Solicitar Información</option>
+                    <option value="reclamo">Reclamos y/o quejas</option>
+                    <option value="otro">Otro (especificar)</option>
+                </select>
+                <br>
+
+                <textarea name="reclamo-text" id="reclamo-text" cols="30" rows="10" placeholder="Ingrese su reclamo o queja"></textarea>
+            </div>
+
+            <span>Sus datos son completamente confidenciales.</span>
+            
+        </div>
+        
+        <button id="enivar" onclick="validar()">Enviar</button>
+        
+        <div class="margen2"></div>
+        
+    </form>
+
+    <p>Su solicitud será archivada, recibirá un correo de confirmación antes de que nos comuniquemos con usted.</p> 
+
+    <footer>
+        <div class="footer1">
+            <div class="caja-footer1">
+                <img src="img/Escudo_de_Encarnación.png">
+                <h2>Ciudad de Encarnación</h2>
+            </div>
+            <div class="caja-footer">
+                <h2>Siguenos en nuestras redes</h2>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-square-facebook" style="color: #ce8760;"></i></a>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-square-instagram" style="color: #ce8760;"></i></a>
+                <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-square-twitter" style="color: #ce8760;"></i></a>
+
+                <h3>Teléfono</h3>
+                <h4>(021) 265987</h4>
+            </div>
+        </div>
+        <br><br><br>
+        <hr>
+        <p class="texto-final">© 2023 Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+<script src="script2.js"></script>
+</html>

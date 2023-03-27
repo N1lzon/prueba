@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: rgb(52, 50, 61);
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+/*#region NavBar*/
+header{
+    top: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar{
+    background-color: rgb(52, 50, 61);
+    height: 12vh;
+    display: flex;
+}
+
+.navbar img{
+    height: 90%;
+    margin-top: auto;
+    margin-left: 20px;
+}
+.navbar h2{
+    color: white;
+    font-size: 30px;
+    margin-top: 4vh;
+    margin-left: 2%;
+    font-style: italic;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin-left: 38%;
+}
+.navbar li{
+    padding-top: 4.5vh;
+}
+.navbar li a{
+    padding-top: 4.5vh;
+    padding-bottom: 4.5vh;
+    padding-left: 4.5vw;
+    padding-right: 4.5vw;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.navbar li a:hover {
+    background-color: white;
+    color: rgb(70, 78, 126);
+    transition: 0.3s;
+}
+
+.margen{
+    height: 12vh;
+}
+/*#endregion NavBar*/
+
+/*#region Footer*/
+
+footer{
+    width: 100%;
+    height: 100px;
+}
+
+.footer1{
+    display: flex;
+    width: 100%;
+    height: 70px;
+}
+
+footer .caja-footer{
+    width: 40%;
+    margin-left: 2.5%;
+}
+
+footer .caja-footer1{
+    display: flex;
+    width: 40%;
+    margin-left: 2.5%;
+    margin-top: 2%;
+}
+
+.caja-footer1 img{
+    height: 70px;
+    margin-top: 12px;
+    margin-left: 5%;
+}
+
+.caja-footer1 h2{
+    color: white;
+    font-size: 14px;
+    font-style: italic;
+    margin-top: 6%;
+    text-shadow: 1px 1px 1px black;
+}
+
+footer .caja-footer{
+    text-align: right;
+    width: 40%;
+    margin-left: 12.5%;
+}
+
+footer .caja-footer h2{
+    color: white;
+    font-size: 14px;
+    margin-top: 5%;
+    text-shadow: 1px 1px 1px black;
+}
+
+footer .caja-footer i{
+    margin-top: 5px;
+    font-size: 18px;
+    margin-left: 10px;
+
+}
+
+footer .caja-footer h3{
+    margin-top: 10px;
+    color: white;
+    font-size: 14px;
+    text-shadow: 1px 1px 1px black;
+}
+footer .caja-footer h4{
+    color: white;
+    font-size: 12px;
+    font-style: italic;
+    text-shadow: 1px 1px 1px black;
+}
+
+footer hr{
+    width: 90%;
+    height: 1px;
+    margin: auto;
+    background-color: rgb(206, 135, 93);
+}
+
+footer .texto-final{
+    text-align: center;
+    color: white;
+    margin-top: 5px;
+}
+/*#endregion*/
+
